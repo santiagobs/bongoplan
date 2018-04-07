@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bongo Favicon-->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!--Font Awesome Library-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Reset Stylesheet and Custom CSS -->
@@ -18,31 +20,41 @@
     <header class="container-fluid">
       <div class="row">
         <div class="col">
-          <img alt="corporate logo" src="./resources/images/logo.png">
+          <img class="img-fluid" alt="corporate logo" src="./resources/images/logo.png">
         </div>
-        <div class="col">
+
+
+        <nav class="mobilemenu col">
+          <button class="btn btn-secondary dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Menu
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Home</a>
+            <a class="dropdown-item" href="#">Restaurantes</a>
+            <a class="dropdown-item" href="#">Contacto</a>
+          </div>
+        </nav>
+
+        <nav class="desktopmenu col">
           <ul class="nav flex-column flex-sm-row justify-content-end">
             <li class="nav-item">
-              <a class="nav-link active" href="#">Active</a>
+              <a class="nav-link active" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">Restaurantes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link" href="#">Contacto</a>
             </li>
           </ul>
-        </div>
+        </nav>
       </div>
     </header>
-    
+
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">Fluid jumbotron</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        <h1 class="display-4">Bongo Plan</h1>
+        <p class="lead">.</p>
       </div>
     </div>
 
