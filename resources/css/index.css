@@ -34,10 +34,16 @@ header .mobilemenu {
   background-position: center;
 }
 .jumbotron h1{
-  width: 40rem;
   background-color: whitesmoke;
 }
 .jumbotron p{
-  width: 40rem;
   background-color: whitesmoke;
 }
+@media only screen and (min-width: 768px) {
+    .jumbotron h1{
+      width: 40rem;
+    }
+    .jumbotron p{
+      width: 40rem;
+    }
+  }
