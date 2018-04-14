@@ -30,6 +30,7 @@ header .mobilemenu {
   height: 30rem;
   background-image: url("../images/food-salad-restaurant-person.jpg");
   background-size: cover;
+  background-position: center center;
 }
 .jumbotron h1{
   background-color: whitesmoke;
