@@ -6,7 +6,7 @@ header .col{
   height: 6rem;
 }
 header {
-  background-color: silver;
+  background-color: whitesmoke;
   height: 6rem;
 }
 header img{
@@ -25,4 +25,19 @@ header .mobilemenu {
   header .mobilemenu {
     display: none;
   }
+}
+.jumbotron {
+  height: 30rem;
+  background-image: url("../images/food-salad-restaurant-person.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.jumbotron h1{
+  width: 40rem;
+  background-color: whitesmoke;
+}
+.jumbotron p{
+  width: 40rem;
+  background-color: whitesmoke;
 }
