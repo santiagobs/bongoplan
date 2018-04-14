@@ -45,3 +45,8 @@ header .mobilemenu {
       width: 40rem;
     }
   }
+
+  footer {
+    height: 8rem;
+    background-color: silver;
+  }
